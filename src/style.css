@@ -1,0 +1,24 @@
+.form1 .formItem label{ width: 100px; display: flex; align-items: center; }
+.form1 .formItem{ display: flex; }
+.form1 .formItem>div{width: 200px;}
+table.form td{ padding: 8px; }
+
+table td button{margin-right: 8px;}
+table.form td input{width: auto;}
+
+ul, ul li{ list-style: none; padding:0}
+.toolbar { margin-bottom: 8px;}
+
+/* tab 标签 */
+.my-tab { display: flex; border-bottom: 1px solid #e8e8e8;}
+.my-tab li { padding: 12px 16px; margin-right: 32px;}
+.my-tab li.active {color: #1890ff; font-weight: 500; border-bottom: 2px solid #1890ff;}
+.my-tab li a{color: inherit}
+
+/* table */
+.table { width: 100%;}
+.table td { padding: 8px; }
+
+button{ margin-right: 8px; margin-left: 0}
+
+.ant-input-number-input{height: auto;}

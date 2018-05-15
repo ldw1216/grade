@@ -1,0 +1,11 @@
+{
+    "watch": ["server/**/*.ts"],
+    "delay": 50,
+    "execMap": {
+        "ts": "ts-node -P tsconfig.server.json"
+    },
+    "env": {
+        "PORT": "8001",
+        "NODE_ENV": "development"
+    }
+}

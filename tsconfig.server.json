@@ -1,0 +1,15 @@
+{
+    "extends": "./tsconfig.base.json",
+    "include": [
+        "server",
+        "typings"
+    ],
+    "compilerOptions": {
+        "lib": ["es6", "esnext", "dom"],
+        "target": "esnext",
+        "module": "commonjs",
+        "rootDir": "server",
+        "outDir": "build/server",
+        "noUnusedLocals": false
+    }
+}
